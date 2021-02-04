@@ -1,7 +1,7 @@
 // Thanks https://github.com/axic/swarmhash
 
-const keccak = require("eth-lib/lib/hash").keccak256;
-const Bytes = require("eth-lib/lib/bytes");
+const keccak = require("vap-lib/lib/hash").keccak256;
+const Bytes = require("vap-lib/lib/bytes");
 
 const swarmHashBlock = (length, data) => {
   const lengthEncoded = Bytes.reverse(Bytes.pad(6, Bytes.fromNumber(length)));

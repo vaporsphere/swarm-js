@@ -9,12 +9,12 @@ const privateKeyPath = path.join(process.cwd(), "swarmPrivateKey");
 // Writes a temporary private key file to disk
 fs.writeFileSync(privateKeyPath, "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef");
 
-// To run Swarm locally, you need a running Geth
-// node and an Ethereum account/password
+// To run Swarm locally, you need a running Gvap
+// node and an Vapory account/password
 const swarmSetup = {
   privateKey: privateKeyPath,
-  dataDir: process.env.HOME + "/Library/Ethereum/testnet",
-  ensApi: process.env.HOME + "/Library/Ethereum/testnet/geth.ipc",
+  dataDir: process.env.HOME + "/Library/Vapory/testnet",
+  ensApi: process.env.HOME + "/Library/Vapory/testnet/gvap.ipc",
   binPath: process.env.HOME + "/.swarm/swarm"
 };
 
