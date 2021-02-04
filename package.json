@@ -31,7 +31,7 @@
   "homepage": "https://github.com/vaporsphere/swarm-js#readme",
   "license": "MIT",
   "main": "lib/api-node.js",
-  "name": "swarm-js",
+  "name": "@vaporsphere/swarm-js",
   "namespace": "vaporsphere",
   "repository": {
     "type": "git",
